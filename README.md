@@ -4,13 +4,13 @@ Standalone application that auto-crops a gallery view of ZoomOSC into individual
 
 *This application is an extension of "[OSC for OBS v.2.2](https://github.com/jshea2/OSC-for-OBS)". Same OSC Commands plus AutoCropping*
 
-### [Download Now]()
+### [Download Now](https://github.com/jshea2/AutoCropper-for-ZoomOSC-OBS/releases/)
 
 <img width="299" alt="Screen Shot 2021-03-06 at 9 18 27 PM" src="https://user-images.githubusercontent.com/70780576/110230699-8f239e80-7ec7-11eb-8e8f-d152268d9306.png">
 
 
 # Setup
-- Download [*AutoCropper-for-ZoomOSC-OBS*]()
+- Download [*AutoCropper-for-ZoomOSC-OBS*](https://github.com/jshea2/AutoCropper-for-ZoomOSC-OBS/releases/)
 - Download [ZoomOSC 4.x](https://www.liminalet.com/zoomosc)
 - Download [OBS Studio](https://obsproject.com/download)
 - Download [obs-websocket plugin](https://github.com/Palakis/obs-websocket/releases/tag/4.9.0) (4.9 and up)
