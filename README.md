@@ -15,7 +15,9 @@ Standalone application that auto-crops a gallery view of ZoomOSC into individual
 - Download [OBS Studio](https://obsproject.com/download)
 - Download [obs-websocket plugin](https://github.com/Palakis/obs-websocket/releases/tag/4.9.0) (4.9 and up)
 - In a **ZoomOSC** session...
-  - "Update" and "Save" to "performance_config.txt" or manually enter in participants in order of OBS scenes
+  - Drag ZoomOSC window to 2nd monitor
+  - Set to Fullscreen mode
+  - "Update" and "Save" to "performance_config.txt" or manually enter in participants in order of OBS scenes you want
   - <img width="318" alt="Screen Shot 2021-03-06 at 9 22 32 PM" src="https://user-images.githubusercontent.com/70780576/110229994-5b924580-7ec2-11eb-9872-e3ac2a67f9bf.png">
   - In this example "Show Feed" is you, "Joe" would be Scene "1" in OBS, "Timmy" is Scene "2" in OBS, and etc...
 - In **OBS** 
