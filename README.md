@@ -10,25 +10,17 @@ Standalone application that auto-crops a gallery view of ZoomOSC into individual
 
 
 # Setup
-- Download [*AutoCropper-for-ZoomOSC-OBS*](https://github.com/jshea2/AutoCropper-for-ZoomOSC-OBS/releases/)
-- Download [ZoomOSC 4.x](https://www.liminalet.com/zoomosc)
-- Download [OBS Studio](https://obsproject.com/download)
-- Download [obs-websocket plugin](https://github.com/Palakis/obs-websocket/releases/tag/4.9.0) (4.9 and up)
+- Download and install [*AutoCropper-for-ZoomOSC-OBS*](https://github.com/jshea2/AutoCropper-for-ZoomOSC-OBS/releases/)
+- Download and install [ZoomOSC 4.x](https://www.liminalet.com/zoomosc)
+- Download and install [OBS Studio](https://obsproject.com/download)
+- Download and install [obs-websocket plugin](https://github.com/Palakis/obs-websocket/releases/tag/4.9.0) (4.9 and up)
 - In a **ZoomOSC** session...
   - Drag ZoomOSC window to 2nd monitor
   - Set to Fullscreen mode
   - "Update" and "Save" to "performance_config.txt" or manually enter in participants in order of OBS scenes you want
   - <img width="318" alt="Screen Shot 2021-03-06 at 9 22 32 PM" src="https://user-images.githubusercontent.com/70780576/110229994-5b924580-7ec2-11eb-9872-e3ac2a67f9bf.png">
   - In this example "Show Feed" is you, "Joe" would be Scene "1" in OBS, "Timmy" is Scene "2" in OBS, and etc...
-- In **OBS** 
-  - To automatically create scenes go to "*Scripts > Create OBS Scenes and Sources*"
-    - Enter the amount of participants you want as OBS scenes:
-    - <img width="200" alt="Screen Shot 2021-03-07 at 4 57 04 AM" src="https://user-images.githubusercontent.com/70780576/110240706-10982280-7f02-11eb-91a8-0412a7254ea5.png">
-    - *NOTE:* You MUST "Connect" in app first
-  -  To manually add more scenes you must name the scene the index of the participant from the "performance_config.txt" file (It starts at 0). 
-      -  In the above example "Joe" is index 1, so the scene name should be "1" in OBS. 
-  -  Next the source must be a "Display Capture" and the name must append a space with the same index number 
-      - Scene: "1" Source: "Display Capture 1"
+- Open **OBS**
 - In **AutoCropper for ZoomOSC/OBS** 
     - Input your 2nd monitor screen size in "Width" and "Height"
     - "Retina" should be enabled if you have a retina display
@@ -56,7 +48,16 @@ Standalone application that auto-crops a gallery view of ZoomOSC into individual
       - Hide Non Video Participants
       - Set Subscribe in Settings to "All"
       - Get Gallery Order (To start AutoCropping)
-- The AutoCropper will dynamically adjust scenes when the gallery view changes in ZoomOSC
+    - The AutoCropper will dynamically adjust scenes when the gallery view changes in ZoomOSC
+- In **OBS** 
+  - To automatically create scenes go to "*Scripts > Create OBS Scenes and Sources*"
+    - Enter the amount of participants you want as OBS scenes:
+    - <img width="200" alt="Screen Shot 2021-03-07 at 4 57 04 AM" src="https://user-images.githubusercontent.com/70780576/110240706-10982280-7f02-11eb-91a8-0412a7254ea5.png">
+    - *NOTE:* You MUST "Connect" in app first
+  -  To manually add more scenes you must name the scene the index of the participant from the "performance_config.txt" file (It starts at 0). 
+      -  In the above example "Joe" is index 1, so the scene name should be "1" in OBS. 
+  -  Next the source must be a "Display Capture" and the name must append a space with the same index number 
+      - Scene: "1" Source: "Display Capture 1"
 
 # Utilizing *AutoCropper for ZoomOSC/OBS*
 
