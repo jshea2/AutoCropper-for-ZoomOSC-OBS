@@ -47,7 +47,8 @@ Standalone application that auto-crops a gallery view of ZoomOSC into individual
       - Hide Usernames on Video
       - Hide Non Video Participants
       - Set Subscribe in Settings to "All"
-      - Get Gallery Order (To start AutoCropping)
+      - Get Gallery Order (To request an AutoCrop) ***ONLY WORKS IN ZoomOSC Pro***
+        - If you only have ZoomOSC Essentials, just turn a video off and on to start the autocrop
     - The AutoCropper will dynamically adjust scenes when the gallery view changes in ZoomOSC
 - In **OBS** 
   - To automatically create scenes go to "*Scripts > Create OBS Scenes and Sources*"
