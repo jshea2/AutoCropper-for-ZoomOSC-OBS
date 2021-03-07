@@ -19,9 +19,10 @@ Standalone application that auto-crops a gallery view of ZoomOSC into individual
   - <img width="318" alt="Screen Shot 2021-03-06 at 9 22 32 PM" src="https://user-images.githubusercontent.com/70780576/110229994-5b924580-7ec2-11eb-9872-e3ac2a67f9bf.png">
   - In this example "Show Feed" is you, "Joe" would be Scene "1" in OBS, "Timmy" is Scene "2" in OBS, and etc...
 - In **OBS** 
-  - To create scenes go to "*Scripts > Create OBS Scenes and Sources*"
+  - To automatically create scenes go to "*Scripts > Create OBS Scenes and Sources*"
     - Enter the amount of participants you want as OBS scenes:
     - <img width="200" alt="Screen Shot 2021-03-07 at 4 57 04 AM" src="https://user-images.githubusercontent.com/70780576/110240706-10982280-7f02-11eb-91a8-0412a7254ea5.png">
+    - *NOTE:* You MUST "Connect" in app first
   -  To manually add more scenes you must name the scene the index of the participant from the "performance_config.txt" file (It starts at 0). 
       -  In the above example "Joe" is index 1, so the scene name should be "1" in OBS. 
   -  Next the source must be a "Display Capture" and the name must append a space with the same index number 
