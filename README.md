@@ -2,7 +2,9 @@
 
 Standalone application that auto-crops a gallery view of ZoomOSC into individual OBS scenes.
 
-*This application is an extension of "[OSC for OBS v.2.2](https://github.com/jshea2/OSC-for-OBS)". Same OSC Commands plus AutoCropping*
+* ***This applicaiton requires a Secondary Monitor***
+
+* *This application is an extension of "[OSC for OBS v.2.2](https://github.com/jshea2/OSC-for-OBS)". Same OSC Commands plus AutoCropping*
 
 ### [Download Now](https://github.com/jshea2/AutoCropper-for-ZoomOSC-OBS/releases/)
 
