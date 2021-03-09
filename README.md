@@ -1,4 +1,5 @@
-<img src="https://user-images.githubusercontent.com/70780576/110203165-5f21c000-7e21-11eb-942b-c72140d79f2f.png" width="400">
+<img src="https://user-images.githubusercontent.com/70780576/110429504-e9effe00-805f-11eb-9d0f-29946ceb9b92.png" width="400">
+
 
 Standalone application that auto-crops a gallery view of ZoomOSC into individual OBS scenes.
 
