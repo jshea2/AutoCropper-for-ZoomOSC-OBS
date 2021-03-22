@@ -70,6 +70,10 @@ Standalone application that auto-crops a gallery view of ZoomOSC into individual
 - Another powerful tool to have for animating position for transitions between scenes is the "[move-transition](https://obsproject.com/forum/resources/move-transition.913/)" plugin.
 - See the built-in **[OSC API](https://github.com/jshea2/OSC-for-OBS)** for all available commands to control OBS.
 - You can combine this with show control software (like QLab) to control OBS parameters, overlay video with Syphon or NDI
+- Using the TouchOSC Layout is a quick way to edit parameters in OBS (Go to resources to downlaod)
+    - <img src="https://user-images.githubusercontent.com/70780576/112069276-c7161d00-8b28-11eb-8021-914f2100b5b0.PNG" 
+alt="NodeOBS-ZoomOSC-Autocropper DEMO Video" width="350" border="10" />
+
 - Check out the video below for what's possible with using QLab, ZoomOSC, OBS, and AutoCropper for ZoomOSC/OBS:
     - <a href="https://youtu.be/pR-0IUBodrc" target="_blank"><img src="http://img.youtube.com/vi/pR-0IUBodrc/0.jpg" 
 alt="NodeOBS-ZoomOSC-Autocropper DEMO Video" width="200" border="10" /></a>
